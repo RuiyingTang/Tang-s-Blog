@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ruiying's blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <a>BlogHome</a>
+            <a>BlogPost</a>
+            <a>BlogEdit</a>
+            <a>Contact</a>
+        </header>
+        <nav>
+            <h1>谈天说地</h1>
+            <a href="./aboutme.html" target="_blank">About Me</a>
+            <a href="./enya.html" target="_blank">Enya's blog</a>
+        </nav>
+
+        <main>、
+
+        <section class="info">
+            <div class="title"> 
+                <h2><strong>个人资料</strong></h2>
+            </div>
+            
+            <img id="userPhoto" src="./ruiyingfoto.jpg" alt="userPhoto"/>
+            <br/>
+            <div class=info_name>
+                <span>Ruiying Tang</span>
+            </div>
+            <div class="info_visit">
+                <ul>
+                    <li>
+                        <span>Visitor:</span>
+                        <span>......</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="list">
+            <div class="title"> 
+                <h2><strong>最新文章</strong></h2>
+            </div class="content">
+            <div >
+                <ul>
+                    <li><a href="./texel.html" target="iframe_a">Texel之旅</a></li>
+                    <li><a href="./bbq.html" target="">来 一起烧烤</a></li>
+                    <li><a href="./boulder.html" target="">攀岩</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="archives">
+            <div class="title">
+                <h2><strong>归档</strong></h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>2017</li>
+                    <li>2018</li>
+                    <li>2019</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="article">
+            <div class="title">
+                <h2><strong>正文</strong></h2>
+            </div>
+            <iframe src="texel.html" frameborder="0" width="660" height="660" name="iframe_a"></iframe>
+        </section>
+
+        <section class="message">
+            <div class="title">
+                <h2><strong>留言</strong></h2>
+            </div>
+            <form class="leaveamessage" action="submission.html" method="POST"> 
+                <label for="leaveamessage">Leave me a message:</label>
+                <br />
+                <textarea id="leaveamessage" name="leaveamessage" rows="10" cols="60"></textarea>
+                <input type="submit" value="Submit"> 
+            </form>
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
